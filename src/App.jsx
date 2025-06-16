@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Cultural-Connections">
       <div className="navbar">
         <Link to="/" className="navbar-title">Cultural Connections</Link>
         <div className="navbar-links">
