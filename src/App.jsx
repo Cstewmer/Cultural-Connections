@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, NavLink, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, NavLink, Link } from 'react-router-dom';
 import MandarinTutoring from './MandarinTutoring';
 import About from './About';
 import './App.css';
 
 function App() {
   return (
-    <Router basename="/Cultural-Connections/">
+    <Router>
       <div className="navbar">
         <Link to="/" className="navbar-title">Cultural Connections</Link>
         <div className="navbar-links">
